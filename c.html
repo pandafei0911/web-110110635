@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>登入</title>
+  <style type="text/css">
+	
+	body {
+
+padding-left: 11em;
+font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    background-color: #9F88FF}
+        ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+   position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+	
+	
+	
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+ul.navbar li {
+    background:#99BBFF;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple } 
+   address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted } 
+  </style>
+</head>
+<font size="4"> </font>
+<body>
+<header id="header">
+    <h1>會員登入</h1>
+  </header>
+
+<body>
+<img src="http://www.tucoo.com/card/panda/images/card0360.jpg"style="width:300px;height:300px"></body>
+    <form action="signup" method="post">
+帳號: <input type="text" name="user"/><br/>
+密碼: <input type="password" name="password"/><br/>
+信箱: <input type="email" name="email"/><br/>
+生日: <input type="date" name="birthday"/><br/>
+照片: <input type="file" name="picture"/><br/>
+性別: <input type="radio" name="sex" value="male" checked/> 男
+      <input type="radio" name="sex" value="female"/> 女<br/>
+血型: <select name="BloodType">
+        <option value="A">A 型</option>
+        <option value="B">B 型</option>
+        <option value="AB">AB 型</option>
+        <option value="O">O 型</option>
+      </select> <br/>
+自我介紹： <br/>
+<textarea name="AboutMe">
+</textarea> <br/>
+
+<input type="submit" value="送出"/><input type="reset" value="清除"/><br/>
+</form> 
+<!-- 目錄 -->
+<ul class="navbar">
+  <li><a href="abc.html">首頁</a>
+  <li><a href="b.html">介紹</a>
+  <li><a href="c.html">登入</a>
+</ul>
+ 
+</body>
+</html>
+
